@@ -5,7 +5,8 @@ execute pathogen#infect()
 "=====================================
 "set the line numbers to relative 
 set relativenumber
-
+"add ctrlp to vim
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 "======================================
 "	Disable features
