@@ -1,5 +1,5 @@
 execute pathogen#infect()
-
+let mapleader = ","
 "=====================================
 "	Setting up vim
 "=====================================
@@ -7,6 +7,10 @@ execute pathogen#infect()
 set relativenumber
 "add ctrlp to vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" SNIPPETS
+"Plain html
+nnoremap <leader>html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
 "======================================
 "	Disable features
