@@ -12,15 +12,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugin on GitHub repo
 Plugin 'valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
 
 "all of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-
-
-
-
 
 execute pathogen#infect()
 let mapleader = ","
