@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
 
 "all of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -25,6 +26,8 @@ let mapleader = ","
 "=====================================
 "set the line numbers to relative 
 set relativenumber
+"set number by default
+set number
 "add ctrlp to vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
